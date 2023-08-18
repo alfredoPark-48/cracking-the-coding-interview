@@ -1,14 +1,5 @@
 import unittest
 
-# Given two strings, write a method to decide if one is a permutation of the
-# other
-
-# The solution I came up with uses two hashmaps where we store each character
-# of both strings in each hashmap. First we check if the length of both strings
-# are equal because if they are not of the same length then one string is not
-# a permutation of the other. Then we compare both and if not the same we return 
-# False.
-
 # Time complexity O(N)
 # Space complexity O(N)
 def check_permutations(string1, string2):
